@@ -19,7 +19,7 @@ First, clone this repo to your local machine via the terminal :
   git clone https://github.com/deveb2020/MERN-APP-CLIENT.git
 ```
 
-Second, install dependecies :
+Second, install dependencies :
 ````
   npm install
 ````
