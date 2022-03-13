@@ -1,0 +1,19 @@
+.create_exercise {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 3rem 0;
+	width: 30rem;
+	margin: 0 auto;
+}
+
+.create_exercise> div {
+	margin: 1rem;
+	width: 20rem;
+}
+
+.create_exercise> button {
+	width: 20rem;
+	height: 3rem;
+	margin-top: 1rem;
+}

@@ -1,0 +1,64 @@
+.exercises_list > h2 {
+	text-align: center;
+}
+
+.exercise_card_header {
+	background-color: rgb(65, 122, 122);
+	display: flex;
+	justify-content: space-between;
+	padding: 0 2rem;
+	margin: 1rem 0;
+	color: white;
+	font-weight: 600;
+}
+
+.exercise_card{
+	background-color: rgb(231, 238, 238);
+	display: flex;
+	justify-content: space-between;
+	padding: 0 2rem;
+	margin: 1rem 0;
+	text-decoration: none;
+}
+
+.exercise_card> a {
+	text-decoration: none;
+	margin: auto 0;
+}
+
+.exercise_card> div {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.exercise_card > div > a {
+	text-decoration: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	color: black;
+}
+
+.exercise_card > div > a > svg {
+	color: blue;
+	margin-right: 0.7rem;
+}
+
+.exercise_card> div > button {
+	background-color: transparent;
+	border: none;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	border-left: 2px solid black;
+}
+
+.exercise_card> div > button > svg {
+	color: rgb(202, 50, 50);
+	cursor: pointer;
+	margin-left: 0.2rem;
+}
